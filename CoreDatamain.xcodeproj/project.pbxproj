@@ -13,6 +13,7 @@
 		124C738F1F512725009CC45E /* CoreDatamain.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 124C738D1F512725009CC45E /* CoreDatamain.xcdatamodeld */; };
 		124C73911F512725009CC45E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 124C73901F512725009CC45E /* Assets.xcassets */; };
 		124C73941F512725009CC45E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 124C73921F512725009CC45E /* LaunchScreen.storyboard */; };
+		124C739C1F512CE4009CC45E /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124C739B1F512CE4009CC45E /* DetailVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		124C73901F512725009CC45E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		124C73931F512725009CC45E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		124C73951F512725009CC45E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		124C739B1F512CE4009CC45E /* DetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailVC.swift; path = ../DetailVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				124C73861F512725009CC45E /* AppDelegate.swift */,
 				124C73881F512725009CC45E /* ViewController.swift */,
+				124C739B1F512CE4009CC45E /* DetailVC.swift */,
 				124C738A1F512725009CC45E /* Main.storyboard */,
 				124C73901F512725009CC45E /* Assets.xcassets */,
 				124C73921F512725009CC45E /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				124C738F1F512725009CC45E /* CoreDatamain.xcdatamodeld in Sources */,
+				124C739C1F512CE4009CC45E /* DetailVC.swift in Sources */,
 				124C73891F512725009CC45E /* ViewController.swift in Sources */,
 				124C73871F512725009CC45E /* AppDelegate.swift in Sources */,
 			);
